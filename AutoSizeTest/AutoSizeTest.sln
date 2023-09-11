@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoSizeTest", "AutoSizeTest\AutoSizeTest.csproj", "{647DC95C-55E7-4E03-80A0-BE0D24AEFFAF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F2EF36D8-CAA2-4A7A-848B-A5A0A2E9BE02} = {F2EF36D8-CAA2-4A7A-848B-A5A0A2E9BE02}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoScaleHelper", "..\..\AutoScaleHelper\AutoScaleHelper\AutoScaleHelper.csproj", "{F2EF36D8-CAA2-4A7A-848B-A5A0A2E9BE02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{647DC95C-55E7-4E03-80A0-BE0D24AEFFAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{647DC95C-55E7-4E03-80A0-BE0D24AEFFAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{647DC95C-55E7-4E03-80A0-BE0D24AEFFAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{647DC95C-55E7-4E03-80A0-BE0D24AEFFAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2EF36D8-CAA2-4A7A-848B-A5A0A2E9BE02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2EF36D8-CAA2-4A7A-848B-A5A0A2E9BE02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2EF36D8-CAA2-4A7A-848B-A5A0A2E9BE02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2EF36D8-CAA2-4A7A-848B-A5A0A2E9BE02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F51256D-8621-47B6-9124-E305E6BEADEE}
+	EndGlobalSection
+EndGlobal
