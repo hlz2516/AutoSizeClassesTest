@@ -1,0 +1,2 @@
+# AutoSizeClassesTest
+winform缩放自适应类对比测试代码
